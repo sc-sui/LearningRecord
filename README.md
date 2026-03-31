@@ -1,0 +1,3 @@
+LearningRecord用来记录本科阶段的学习成果和课程汇报
+Code_qc包括我在学习量子化学课程过程中撰写的一些代码，涵盖类型包括HF、CI、CC、DFT
+Seminar_Presentation包括我的一些课程汇报以及我主讲的四次讨论班的资料
