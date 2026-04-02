@@ -68,5 +68,5 @@ if __name__ == "__main__":
     aop = lambda x: a.dot(x) 
     e = davidson(aop, a.diagonal())[0]
     ref, _ = np.linalg.eigh(a)
-    assert abs(e - ref[0]).max() < 1e-8
+    assert abs(e - ref[0]) < 1e-8
     print(f"最小近似本征值：{e:.8f}")
